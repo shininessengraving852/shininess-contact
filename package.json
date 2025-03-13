@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/shininessengraving852/shininess-contact/issues"
   },
-  "homepage": "https://github.com/shininessengraving852/shininess-contact#readme"
+  "homepage": "https://github.com/shininessengraving852/shininess-contact#readme",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0"
+  },
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
 }
