@@ -1,0 +1,24 @@
+{
+  "name": "shininess-contact",
+  "version": "1.0.0",
+  "description": "# Deployment",
+  "workspaces": [
+    "svc",
+    "web"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shininessengraving852/shininess-contact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shininessengraving852/shininess-contact/issues"
+  },
+  "homepage": "https://github.com/shininessengraving852/shininess-contact#readme"
+}
