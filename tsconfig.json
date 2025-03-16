@@ -1,0 +1,8 @@
+{
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "resolveJsonModule": true,
+    },
+    "include": ["./package.json", "./package-lock.json"]
+}

@@ -8,6 +8,9 @@
   ],
   "main": "index.js",
   "scripts": {
+    "clean": "npx --package typescript tsc --build --clean",
+    "build": "npm i && npx --package typescript tsc --build",
+    "start": "npm start -w svc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +25,8 @@
   },
   "homepage": "https://github.com/shininessengraving852/shininess-contact#readme",
   "dependencies": {
+  },
+  "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "typescript": "^5.8.2"
   }
