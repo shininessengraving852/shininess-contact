@@ -7,7 +7,7 @@
     "prebuild": "npm run clean",
     "build": "npx --package typescript tsc --build tsconfig.build.json",
     "clean": "npx --package typescript tsc --build tsconfig.build.json --clean",
-    "postclean": "rimraf dist",
+    "postclean": "npm i rimraf && rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -8,10 +8,11 @@
   ],
   "main": "index.js",
   "scripts": {
-    "clean": "npx --package typescript tsc --build --clean",
-    "build": "npm i && npx --package typescript tsc --build",
+    "clean": "npm run clean -ws && npx --package typescript tsc --build --clean",
+    "build": "npm i && npx --package typescript tsc --build && npm run build -ws",
     "start": "npm start -w svc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postclean": "npm i rimraf && rimraf node_modules"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/shininessengraving852/shininess-contact#readme",
   "dependencies": {
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
